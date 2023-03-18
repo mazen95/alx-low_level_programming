@@ -10,7 +10,7 @@ int n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		while(n! = 9)
+		while(n != 9)
 		putchar(n);
 		putchar(',');
 		putchar(' ');
