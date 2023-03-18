@@ -10,10 +10,12 @@ int n;
 
 	for (n = '0'; n <= '9'; n++)
 	{
-		while(n != 9)
 		putchar(n);
+		if(n != 9){
 		putchar(',');
 		putchar(' ');
+			}
 	}
+
 	return (0);
 }
