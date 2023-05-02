@@ -15,7 +15,7 @@
  * Return: If the function fails - NULL.
  *         Otherwise - the address of the new element.
  */
-list_t *add_node(list_t **head, const char *str)
+listint_t *add_nodeint(listint_t **head, const int n);
 {
 	char *dup;
 	int len;
