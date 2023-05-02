@@ -1,4 +1,4 @@
-/**
+/*
  * File: 102-free_listint_safe.c
  * Auth: RG Mashaal
  */
