@@ -1,7 +1,4 @@
-/*
- * File: 102-free_listint_safe.c
- * Auth: RG Mashaal
- */
+
 
 #include "lists.h"
 
@@ -56,7 +53,6 @@ size_t looped_listint_count(listint_t *head)
 /**
  * free_listint_safe - Frees a listint_t list safely (ie.
  * @h: A pointer to the address of
- * Return: The size of the list that was freed.
  * Description: The function sets the head to NULL.
  */
 size_t free_listint_safe(listint_t **h)
